@@ -1,0 +1,9 @@
+{% extends 'search/base.html' %}
+
+{% block content %}
+    <h1>This the new home Snehil Bro</h1>
+    <h2>I love Prerana Gupta</h2>
+    {% for tweet in all_tweets%}
+        <h3>{{tweet}}</h3>
+    {% endfor %}
+{% endblock %}
