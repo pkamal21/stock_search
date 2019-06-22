@@ -4,10 +4,7 @@ from .forms import PostForm
 from django.shortcuts import redirect
 import tweepy as tw
 
-consumer_key='BJDjBMEWm2DPuJDCPvdG2iyic'
-consumer_secret='JbMC43uuyotJQoPt8hVdTlDEImBD0g82u9Dj9htJ4Z3DsF0W55'
-access_token_key='1142026962250027008-WGrz5Ds7WaHcaL8qTF0aERQVvCiTxK'
-access_token_secret='H2ffGEbSQS66OiXM7IEtywVuyLzR4o1TzxKO8KmFlVwDD'
+
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token_key, access_token_secret)
